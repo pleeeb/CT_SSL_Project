@@ -389,7 +389,7 @@ def train_yolov5(data_yaml, fold_num, output_dir, epochs=50, batch_size=16, img_
         '--data', data_yaml,
         '--weights', pretrained_weights,
         '--cfg', os.path.join(yolov5_dir, 'models', 'yolov5s.yaml'),
-        '--hyp', 'C:\\Users\peter\Masters\Project\hyp.finetune-luna-16.yaml',
+        '--hyp', 'C:\\Users\peter\Masters\Project\yolo\yolov5\luna.yaml',
         '--project', project_dir,
         '--name', 'luna16_nodule_detection',
         '--save-period', '10',
@@ -799,12 +799,11 @@ def run_cross_validation(base_path, annotations_path, num_folds=10, force_reload
             val_manifest = json.load(f)
 
         # Define train and test subsets
-        # Only for the first run, we prepare the datasets as the experiments all use the same splits for efficiency and
+        # Only for the first run, prepare the datasets as the experiments all use the same splits for efficiency and
         # reproducibility.
         #train_subsets = [i for i in range(num_folds) if i != test_subset]
         #test_subsets = [test_subset]
 
-        # Uncomment the following lines if you want to prepare datasets for the first run
 
         # Create fold directory
         #fold_dir = os.path.join(output_dir, f'fold_{test_subset}_data')
@@ -951,8 +950,8 @@ def main():
 
     # Set parameters
     force_reload = False
-    experiment_name = 'custom_backbone_sequential_0.002lr'
-    pretrained_weights = 'C:\\Users\peter\Masters\Project\converted_models\yolov5_custom_backbone_sequential.pt'
+    experiment_name = 'random_init'
+    pretrained_weights = ''
 
     # Run cross-validation
     results = run_cross_validation(
@@ -975,7 +974,7 @@ def main():
     logger.info("Training completed!")
 
     # Print summary of results
-    print("\n=== Cross-Validation Results Summary ===")
+    print("\nCross-Validation Results Summary")
     print(f"Experiment: {experiment_name}")
     print(f"Pretrained weights: {pretrained_weights}")
     print("=" * 40)
