@@ -93,6 +93,113 @@ class LIDC_IDRI_SSL_Dataset(Dataset):
         return mask_full.unsqueeze(0).float()
 
 
+class SequentialContrastiveMIMModel(nn.Module):
+    def __init__(self, backbone, feature_dim=512, projection_dim=128, mim_channels=3, split_layer=5):
+        super().__init__()
+        # Split backbone into lower and upper layers
+        self.split_layer = split_layer
+        self.lower_layers = nn.Sequential(*list(backbone.children())[:split_layer])
+        self.upper_layers = nn.Sequential(*list(backbone.children())[split_layer:])
+
+        # Determine output characteristics of lower layers
+        with torch.no_grad():
+            dummy_input = torch.zeros(1, 3, 224, 224)
+            lower_output = self.lower_layers(dummy_input)
+            self.lower_channels = lower_output.shape[1]
+            self.lower_spatial_size = lower_output.shape[2]
+
+        print(
+            f"Lower layers output: {self.lower_channels} channels, spatial size: {self.lower_spatial_size}x{self.lower_spatial_size}")
+
+        # Lightweight MIM decoder - optimized for speed
+        self.mim_decoder = nn.Sequential(
+            nn.Conv2d(self.lower_channels, 256, 1),  # 1x1 conv for channel reduction
+            nn.ReLU(inplace=True),
+            nn.Upsample(scale_factor=2, mode='nearest'),  # Faster than transposed conv
+            nn.Conv2d(256, 128, 3, padding=1),
+            nn.ReLU(inplace=True),
+            nn.Upsample(scale_factor=2, mode='nearest'),
+            nn.Conv2d(128, 64, 3, padding=1),
+            nn.ReLU(inplace=True),
+            nn.Upsample(size=224, mode='bilinear', align_corners=False),  # Direct to target size
+            nn.Conv2d(64, mim_channels, 3, padding=1),
+            nn.Tanh()
+        )
+
+        # Projection head for contrastive learning
+        self.projection_head = SimCLRProjectionHead(feature_dim, feature_dim, projection_dim, 2)
+
+        # Training phase
+        self.training_phase = 'mim'
+
+        # Cache for feature reuse in MIM phase
+        self.enable_caching = True
+        self.cached_features = None
+
+    def forward(self, x, mask=None, use_cache=False):
+        if self.training_phase == 'mim':
+            # MIM phase: only use lower layers
+            if use_cache and self.cached_features is not None:
+                lower_features = self.cached_features
+            else:
+                with torch.cuda.amp.autocast():  # Mixed precision for speed
+                    lower_features = self.lower_layers(x)
+                if self.enable_caching:
+                    self.cached_features = lower_features.detach()
+
+            # Apply mask at feature level (more efficient)
+            if mask is not None:
+                # Downsample mask to match feature size
+                mask_downsampled = F.adaptive_avg_pool2d(mask, output_size=lower_features.shape[2:])
+                masked_features = lower_features * mask_downsampled
+            else:
+                masked_features = lower_features
+
+            # Decode
+            with torch.cuda.amp.autocast():
+                mim_output = self.mim_decoder(masked_features)
+
+            return None, mim_output
+
+        else:  # 'cl' phase
+            # CL phase: use full network
+            with torch.cuda.amp.autocast():
+                lower_features = self.lower_layers(x)
+                upper_features = self.upper_layers(lower_features)
+                pooled_features = F.adaptive_avg_pool2d(upper_features, (1, 1)).flatten(1)
+                projections = self.projection_head(pooled_features)
+
+            return projections, None
+
+    def set_training_phase(self, phase):
+        """Set training phase to 'mim' or 'cl'"""
+        assert phase in ['mim', 'cl'], "Phase must be 'mim' or 'cl'"
+        self.training_phase = phase
+        self.cached_features = None  # Clear cache when switching phases
+
+        if phase == 'mim':
+            # Freeze upper layers during MIM training
+            for param in self.upper_layers.parameters():
+                param.requires_grad = False
+            for param in self.projection_head.parameters():
+                param.requires_grad = False
+            # Unfreeze lower layers and MIM decoder
+            for param in self.lower_layers.parameters():
+                param.requires_grad = True
+            for param in self.mim_decoder.parameters():
+                param.requires_grad = True
+        else:  # 'cl' phase
+            # Freeze lower layers during CL training
+            for param in self.lower_layers.parameters():
+                param.requires_grad = False
+            for param in self.mim_decoder.parameters():
+                param.requires_grad = False
+            # Unfreeze upper layers and projection head
+            for param in self.upper_layers.parameters():
+                param.requires_grad = True
+            for param in self.projection_head.parameters():
+                param.requires_grad = True
+
 class FullModel(nn.Module):
     def __init__(self, backbone, feature_dim=512, projection_dim=128, mim_channels=3, patch_size=16):
         super().__init__()
