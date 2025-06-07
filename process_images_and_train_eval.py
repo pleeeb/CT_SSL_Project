@@ -674,7 +674,6 @@ def calculate_froc_metrics(predictions_checkpoint, manifest):
                 # Check if prediction matches any ground truth in same slice
                 for gt in scan_ground_truths[pred['series_uid']]:
                     if gt['slice_idx'] == pred['slice_idx']:
-                        # Simple IoU check (you may want to improve this)
                         is_fp = False
                         break
 
