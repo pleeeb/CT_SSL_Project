@@ -1,0 +1,268 @@
+Data Efficiency Comparison Report
+Experiment: random_backbone_0.01lr_data_percentage_comparison
+================================================================================
+
+Summary Results:
+--------------------------------------------------------------------------------
+    Data % |   Avg FROC |   Sens@0.125 |     Sens@1 |     Sens@4
+--------------------------------------------------------------------------------
+        10% |     62.19% |       28.96% |     62.20% |     86.70%
+        25% |     64.80% |       34.76% |     63.99% |     87.19%
+        50% |     70.91% |       43.45% |     71.23% |     90.23%
+        75% |     72.12% |       44.04% |     72.49% |     91.07%
+--------------------------------------------------------------------------------
+
+Detailed Fold Results:
+================================================================================
+
+10% of Training Data:
+----------------------------------------
+  Fold 0:
+    - Training images: 1288 (889 positive, 399 negative)
+    - Average FROC: 61.78%
+    - Sensitivity @ 0.125 FP/scan: 27.60%
+    - Sensitivity @ 1 FP/scan: 61.58%
+    - Sensitivity @ 4 FP/scan: 86.36%
+  Fold 1:
+    - Training images: 1274 (875 positive, 399 negative)
+    - Average FROC: 64.43%
+    - Sensitivity @ 0.125 FP/scan: 30.96%
+    - Sensitivity @ 1 FP/scan: 66.51%
+    - Sensitivity @ 4 FP/scan: 86.12%
+  Fold 2:
+    - Training images: 1271 (872 positive, 399 negative)
+    - Average FROC: 66.66%
+    - Sensitivity @ 0.125 FP/scan: 33.36%
+    - Sensitivity @ 1 FP/scan: 68.28%
+    - Sensitivity @ 4 FP/scan: 89.03%
+  Fold 3:
+    - Training images: 1279 (880 positive, 399 negative)
+    - Average FROC: 63.71%
+    - Sensitivity @ 0.125 FP/scan: 32.08%
+    - Sensitivity @ 1 FP/scan: 64.46%
+    - Sensitivity @ 4 FP/scan: 84.80%
+  Fold 4:
+    - Training images: 1275 (876 positive, 399 negative)
+    - Average FROC: 61.08%
+    - Sensitivity @ 0.125 FP/scan: 32.36%
+    - Sensitivity @ 1 FP/scan: 58.58%
+    - Sensitivity @ 4 FP/scan: 85.85%
+  Fold 5:
+    - Training images: 1297 (898 positive, 399 negative)
+    - Average FROC: 62.50%
+    - Sensitivity @ 0.125 FP/scan: 31.90%
+    - Sensitivity @ 1 FP/scan: 60.24%
+    - Sensitivity @ 4 FP/scan: 90.60%
+  Fold 6:
+    - Training images: 1282 (883 positive, 399 negative)
+    - Average FROC: 60.06%
+    - Sensitivity @ 0.125 FP/scan: 22.03%
+    - Sensitivity @ 1 FP/scan: 58.58%
+    - Sensitivity @ 4 FP/scan: 86.09%
+  Fold 7:
+    - Training images: 1299 (900 positive, 399 negative)
+    - Average FROC: 59.25%
+    - Sensitivity @ 0.125 FP/scan: 28.17%
+    - Sensitivity @ 1 FP/scan: 56.09%
+    - Sensitivity @ 4 FP/scan: 84.13%
+  Fold 8:
+    - Training images: 1266 (867 positive, 399 negative)
+    - Average FROC: 63.47%
+    - Sensitivity @ 0.125 FP/scan: 31.44%
+    - Sensitivity @ 1 FP/scan: 65.85%
+    - Sensitivity @ 4 FP/scan: 86.95%
+  Fold 9:
+    - Training images: 1292 (893 positive, 399 negative)
+    - Average FROC: 58.97%
+    - Sensitivity @ 0.125 FP/scan: 19.71%
+    - Sensitivity @ 1 FP/scan: 61.83%
+    - Sensitivity @ 4 FP/scan: 87.09%
+
+25% of Training Data:
+----------------------------------------
+  Fold 0:
+    - Training images: 3221 (2224 positive, 997 negative)
+    - Average FROC: 74.97%
+    - Sensitivity @ 0.125 FP/scan: 52.06%
+    - Sensitivity @ 1 FP/scan: 74.35%
+    - Sensitivity @ 4 FP/scan: 92.75%
+  Fold 1:
+    - Training images: 3186 (2188 positive, 998 negative)
+    - Average FROC: 68.41%
+    - Sensitivity @ 0.125 FP/scan: 37.90%
+    - Sensitivity @ 1 FP/scan: 68.48%
+    - Sensitivity @ 4 FP/scan: 89.12%
+  Fold 2:
+    - Training images: 3178 (2181 positive, 997 negative)
+    - Average FROC: 70.50%
+    - Sensitivity @ 0.125 FP/scan: 41.13%
+    - Sensitivity @ 1 FP/scan: 72.21%
+    - Sensitivity @ 4 FP/scan: 89.31%
+  Fold 3:
+    - Training images: 3198 (2201 positive, 997 negative)
+    - Average FROC: 71.60%
+    - Sensitivity @ 0.125 FP/scan: 44.03%
+    - Sensitivity @ 1 FP/scan: 71.47%
+    - Sensitivity @ 4 FP/scan: 90.52%
+  Fold 4:
+    - Training images: 3187 (2190 positive, 997 negative)
+    - Average FROC: 70.32%
+    - Sensitivity @ 0.125 FP/scan: 42.36%
+    - Sensitivity @ 1 FP/scan: 69.25%
+    - Sensitivity @ 4 FP/scan: 90.00%
+  Fold 5:
+    - Training images: 3242 (2245 positive, 997 negative)
+    - Average FROC: 65.80%
+    - Sensitivity @ 0.125 FP/scan: 39.52%
+    - Sensitivity @ 1 FP/scan: 62.62%
+    - Sensitivity @ 4 FP/scan: 89.17%
+  Fold 6:
+    - Training images: 3205 (2208 positive, 997 negative)
+    - Average FROC: 47.06%
+    - Sensitivity @ 0.125 FP/scan: 10.86%
+    - Sensitivity @ 1 FP/scan: 44.87%
+    - Sensitivity @ 4 FP/scan: 76.65%
+  Fold 7:
+    - Training images: 3248 (2251 positive, 997 negative)
+    - Average FROC: 46.67%
+    - Sensitivity @ 0.125 FP/scan: 11.81%
+    - Sensitivity @ 1 FP/scan: 41.94%
+    - Sensitivity @ 4 FP/scan: 77.61%
+  Fold 8:
+    - Training images: 3167 (2169 positive, 998 negative)
+    - Average FROC: 68.34%
+    - Sensitivity @ 0.125 FP/scan: 38.35%
+    - Sensitivity @ 1 FP/scan: 69.18%
+    - Sensitivity @ 4 FP/scan: 88.79%
+  Fold 9:
+    - Training images: 3232 (2234 positive, 998 negative)
+    - Average FROC: 64.33%
+    - Sensitivity @ 0.125 FP/scan: 29.56%
+    - Sensitivity @ 1 FP/scan: 65.57%
+    - Sensitivity @ 4 FP/scan: 88.00%
+
+50% of Training Data:
+----------------------------------------
+  Fold 0:
+    - Training images: 6443 (4448 positive, 1995 negative)
+    - Average FROC: 75.54%
+    - Sensitivity @ 0.125 FP/scan: 46.21%
+    - Sensitivity @ 1 FP/scan: 76.73%
+    - Sensitivity @ 4 FP/scan: 94.37%
+  Fold 1:
+    - Training images: 6374 (4377 positive, 1997 negative)
+    - Average FROC: 73.36%
+    - Sensitivity @ 0.125 FP/scan: 48.59%
+    - Sensitivity @ 1 FP/scan: 73.45%
+    - Sensitivity @ 4 FP/scan: 90.43%
+  Fold 2:
+    - Training images: 6358 (4363 positive, 1995 negative)
+    - Average FROC: 77.03%
+    - Sensitivity @ 0.125 FP/scan: 56.95%
+    - Sensitivity @ 1 FP/scan: 77.79%
+    - Sensitivity @ 4 FP/scan: 91.32%
+  Fold 3:
+    - Training images: 6398 (4403 positive, 1995 negative)
+    - Average FROC: 71.13%
+    - Sensitivity @ 0.125 FP/scan: 43.14%
+    - Sensitivity @ 1 FP/scan: 73.05%
+    - Sensitivity @ 4 FP/scan: 90.23%
+  Fold 4:
+    - Training images: 6375 (4380 positive, 1995 negative)
+    - Average FROC: 73.02%
+    - Sensitivity @ 0.125 FP/scan: 43.58%
+    - Sensitivity @ 1 FP/scan: 73.11%
+    - Sensitivity @ 4 FP/scan: 93.02%
+  Fold 5:
+    - Training images: 6485 (4490 positive, 1995 negative)
+    - Average FROC: 71.67%
+    - Sensitivity @ 0.125 FP/scan: 48.57%
+    - Sensitivity @ 1 FP/scan: 70.83%
+    - Sensitivity @ 4 FP/scan: 89.29%
+  Fold 6:
+    - Training images: 6412 (4417 positive, 1995 negative)
+    - Average FROC: 67.02%
+    - Sensitivity @ 0.125 FP/scan: 41.93%
+    - Sensitivity @ 1 FP/scan: 65.28%
+    - Sensitivity @ 4 FP/scan: 85.79%
+  Fold 7:
+    - Training images: 6498 (4503 positive, 1995 negative)
+    - Average FROC: 63.86%
+    - Sensitivity @ 0.125 FP/scan: 32.96%
+    - Sensitivity @ 1 FP/scan: 62.73%
+    - Sensitivity @ 4 FP/scan: 85.85%
+  Fold 8:
+    - Training images: 6336 (4339 positive, 1997 negative)
+    - Average FROC: 68.98%
+    - Sensitivity @ 0.125 FP/scan: 38.62%
+    - Sensitivity @ 1 FP/scan: 68.13%
+    - Sensitivity @ 4 FP/scan: 90.98%
+  Fold 9:
+    - Training images: 6465 (4468 positive, 1997 negative)
+    - Average FROC: 67.53%
+    - Sensitivity @ 0.125 FP/scan: 33.98%
+    - Sensitivity @ 1 FP/scan: 71.23%
+    - Sensitivity @ 4 FP/scan: 91.05%
+
+75% of Training Data:
+----------------------------------------
+  Fold 0:
+    - Training images: 9664 (6672 positive, 2992 negative)
+    - Average FROC: 77.29%
+    - Sensitivity @ 0.125 FP/scan: 54.00%
+    - Sensitivity @ 1 FP/scan: 76.08%
+    - Sensitivity @ 4 FP/scan: 93.29%
+  Fold 1:
+    - Training images: 9561 (6565 positive, 2996 negative)
+    - Average FROC: 72.67%
+    - Sensitivity @ 0.125 FP/scan: 42.87%
+    - Sensitivity @ 1 FP/scan: 74.58%
+    - Sensitivity @ 4 FP/scan: 90.34%
+  Fold 2:
+    - Training images: 9536 (6544 positive, 2992 negative)
+    - Average FROC: 76.21%
+    - Sensitivity @ 0.125 FP/scan: 51.19%
+    - Sensitivity @ 1 FP/scan: 78.15%
+    - Sensitivity @ 4 FP/scan: 92.87%
+  Fold 3:
+    - Training images: 9597 (6605 positive, 2992 negative)
+    - Average FROC: 71.05%
+    - Sensitivity @ 0.125 FP/scan: 41.76%
+    - Sensitivity @ 1 FP/scan: 71.67%
+    - Sensitivity @ 4 FP/scan: 91.41%
+  Fold 4:
+    - Training images: 9562 (6570 positive, 2992 negative)
+    - Average FROC: 68.79%
+    - Sensitivity @ 0.125 FP/scan: 33.58%
+    - Sensitivity @ 1 FP/scan: 69.43%
+    - Sensitivity @ 4 FP/scan: 90.66%
+  Fold 5:
+    - Training images: 9727 (6735 positive, 2992 negative)
+    - Average FROC: 69.64%
+    - Sensitivity @ 0.125 FP/scan: 41.67%
+    - Sensitivity @ 1 FP/scan: 67.62%
+    - Sensitivity @ 4 FP/scan: 91.19%
+  Fold 6:
+    - Training images: 9618 (6626 positive, 2992 negative)
+    - Average FROC: 70.18%
+    - Sensitivity @ 0.125 FP/scan: 44.97%
+    - Sensitivity @ 1 FP/scan: 70.56%
+    - Sensitivity @ 4 FP/scan: 88.53%
+  Fold 7:
+    - Training images: 9747 (6755 positive, 2992 negative)
+    - Average FROC: 68.65%
+    - Sensitivity @ 0.125 FP/scan: 44.16%
+    - Sensitivity @ 1 FP/scan: 66.54%
+    - Sensitivity @ 4 FP/scan: 87.82%
+  Fold 8:
+    - Training images: 9504 (6508 positive, 2996 negative)
+    - Average FROC: 72.99%
+    - Sensitivity @ 0.125 FP/scan: 41.51%
+    - Sensitivity @ 1 FP/scan: 74.34%
+    - Sensitivity @ 4 FP/scan: 91.94%
+  Fold 9:
+    - Training images: 9698 (6702 positive, 2996 negative)
+    - Average FROC: 73.71%
+    - Sensitivity @ 0.125 FP/scan: 44.73%
+    - Sensitivity @ 1 FP/scan: 75.88%
+    - Sensitivity @ 4 FP/scan: 92.64%

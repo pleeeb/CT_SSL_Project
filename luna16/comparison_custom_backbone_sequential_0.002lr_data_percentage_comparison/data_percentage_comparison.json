@@ -1,0 +1,1610 @@
+{
+  "10": [
+    {
+      "fold": 0,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.30844155844155846,
+        "sensitivity_at_0.25_fp": 0.4231601731601732,
+        "sensitivity_at_0.5_fp": 0.5346320346320347,
+        "sensitivity_at_1_fp": 0.6558441558441559,
+        "sensitivity_at_2_fp": 0.7564935064935064,
+        "sensitivity_at_4_fp": 0.8603896103896104,
+        "sensitivity_at_8_fp": 0.9393939393939394,
+        "average_sensitivity": 0.6397649969078542,
+        "total_scans": 89,
+        "total_nodules": 924,
+        "total_predictions": 364965
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\fold_0_p10\\luna16_nodule_detection_p10\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\model_backups\\fold_0\\best_p10.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 10,
+      "subset_info": {
+        "percentage": 10,
+        "train_dir": "subset_10\\images\\train",
+        "total_images": 1288,
+        "selected_images": 1288,
+        "positive_images": 889,
+        "negative_images": 399,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12886,
+        "positive_images": 8896,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1369,
+        "positive_images": 924,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 1,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.2879924953095685,
+        "sensitivity_at_0.25_fp": 0.3611632270168856,
+        "sensitivity_at_0.5_fp": 0.42870544090056284,
+        "sensitivity_at_1_fp": 0.5196998123827392,
+        "sensitivity_at_2_fp": 0.6604127579737336,
+        "sensitivity_at_4_fp": 0.7908067542213884,
+        "sensitivity_at_8_fp": 0.9052532833020638,
+        "average_sensitivity": 0.5648619673009917,
+        "total_scans": 88,
+        "total_nodules": 1066,
+        "total_predictions": 508563
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\fold_1_p10\\luna16_nodule_detection_p10\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\model_backups\\fold_1\\best_p10.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 10,
+      "subset_info": {
+        "percentage": 10,
+        "train_dir": "subset_10\\images\\train",
+        "total_images": 1274,
+        "selected_images": 1274,
+        "positive_images": 875,
+        "negative_images": 399,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12749,
+        "positive_images": 8754,
+        "negative_images": 3995
+      },
+      "val_manifest": {
+        "total_images": 1506,
+        "positive_images": 1066,
+        "negative_images": 440
+      }
+    },
+    {
+      "fold": 2,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.2659963436928702,
+        "sensitivity_at_0.25_fp": 0.3473491773308958,
+        "sensitivity_at_0.5_fp": 0.4506398537477148,
+        "sensitivity_at_1_fp": 0.5676416819012797,
+        "sensitivity_at_2_fp": 0.6809872029250457,
+        "sensitivity_at_4_fp": 0.8162705667276051,
+        "sensitivity_at_8_fp": 0.9223034734917733,
+        "average_sensitivity": 0.5787411856881693,
+        "total_scans": 89,
+        "total_nodules": 1094,
+        "total_predictions": 484796
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\fold_2_p10\\luna16_nodule_detection_p10\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\model_backups\\fold_2\\best_p10.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 10,
+      "subset_info": {
+        "percentage": 10,
+        "train_dir": "subset_10\\images\\train",
+        "total_images": 1271,
+        "selected_images": 1271,
+        "positive_images": 872,
+        "negative_images": 399,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12716,
+        "positive_images": 8726,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1539,
+        "positive_images": 1094,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 3,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.26456071076011844,
+        "sensitivity_at_0.25_fp": 0.40078973346495556,
+        "sensitivity_at_0.5_fp": 0.5172754195459033,
+        "sensitivity_at_1_fp": 0.6327739387956565,
+        "sensitivity_at_2_fp": 0.7502467917077986,
+        "sensitivity_at_4_fp": 0.8489634748272458,
+        "sensitivity_at_8_fp": 0.9279368213228035,
+        "average_sensitivity": 0.6203638414892118,
+        "total_scans": 89,
+        "total_nodules": 1013,
+        "total_predictions": 401150
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\fold_3_p10\\luna16_nodule_detection_p10\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\model_backups\\fold_3\\best_p10.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 10,
+      "subset_info": {
+        "percentage": 10,
+        "train_dir": "subset_10\\images\\train",
+        "total_images": 1279,
+        "selected_images": 1279,
+        "positive_images": 880,
+        "negative_images": 399,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12797,
+        "positive_images": 8807,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1458,
+        "positive_images": 1013,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 4,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.25566037735849056,
+        "sensitivity_at_0.25_fp": 0.32169811320754715,
+        "sensitivity_at_0.5_fp": 0.5075471698113208,
+        "sensitivity_at_1_fp": 0.6122641509433963,
+        "sensitivity_at_2_fp": 0.7273584905660377,
+        "sensitivity_at_4_fp": 0.8311320754716981,
+        "sensitivity_at_8_fp": 0.9216981132075471,
+        "average_sensitivity": 0.5967654986522911,
+        "total_scans": 89,
+        "total_nodules": 1060,
+        "total_predictions": 459164
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\fold_4_p10\\luna16_nodule_detection_p10\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\model_backups\\fold_4\\best_p10.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 10,
+      "subset_info": {
+        "percentage": 10,
+        "train_dir": "subset_10\\images\\train",
+        "total_images": 1275,
+        "selected_images": 1275,
+        "positive_images": 876,
+        "negative_images": 399,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12750,
+        "positive_images": 8760,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1505,
+        "positive_images": 1060,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 5,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.2726190476190476,
+        "sensitivity_at_0.25_fp": 0.3595238095238095,
+        "sensitivity_at_0.5_fp": 0.4511904761904762,
+        "sensitivity_at_1_fp": 0.5595238095238095,
+        "sensitivity_at_2_fp": 0.680952380952381,
+        "sensitivity_at_4_fp": 0.8273809523809523,
+        "sensitivity_at_8_fp": 0.9345238095238095,
+        "average_sensitivity": 0.5836734693877551,
+        "total_scans": 89,
+        "total_nodules": 840,
+        "total_predictions": 515412
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\fold_5_p10\\luna16_nodule_detection_p10\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\model_backups\\fold_5\\best_p10.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 10,
+      "subset_info": {
+        "percentage": 10,
+        "train_dir": "subset_10\\images\\train",
+        "total_images": 1297,
+        "selected_images": 1297,
+        "positive_images": 898,
+        "negative_images": 399,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12970,
+        "positive_images": 8980,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1285,
+        "positive_images": 840,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 6,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.2639593908629442,
+        "sensitivity_at_0.25_fp": 0.3401015228426396,
+        "sensitivity_at_0.5_fp": 0.48020304568527916,
+        "sensitivity_at_1_fp": 0.583756345177665,
+        "sensitivity_at_2_fp": 0.6893401015228426,
+        "sensitivity_at_4_fp": 0.8203045685279188,
+        "sensitivity_at_8_fp": 0.9065989847715736,
+        "average_sensitivity": 0.5834662799129804,
+        "total_scans": 89,
+        "total_nodules": 985,
+        "total_predictions": 459981
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\fold_6_p10\\luna16_nodule_detection_p10\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\model_backups\\fold_6\\best_p10.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 10,
+      "subset_info": {
+        "percentage": 10,
+        "train_dir": "subset_10\\images\\train",
+        "total_images": 1282,
+        "selected_images": 1282,
+        "positive_images": 883,
+        "negative_images": 399,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12825,
+        "positive_images": 8835,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1430,
+        "positive_images": 985,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 7,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.2177121771217712,
+        "sensitivity_at_0.25_fp": 0.2902829028290283,
+        "sensitivity_at_0.5_fp": 0.3997539975399754,
+        "sensitivity_at_1_fp": 0.4821648216482165,
+        "sensitivity_at_2_fp": 0.6063960639606396,
+        "sensitivity_at_4_fp": 0.7552275522755227,
+        "sensitivity_at_8_fp": 0.8917589175891759,
+        "average_sensitivity": 0.5204709189949043,
+        "total_scans": 89,
+        "total_nodules": 813,
+        "total_predictions": 406340
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\fold_7_p10\\luna16_nodule_detection_p10\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\model_backups\\fold_7\\best_p10.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 10,
+      "subset_info": {
+        "percentage": 10,
+        "train_dir": "subset_10\\images\\train",
+        "total_images": 1299,
+        "selected_images": 1299,
+        "positive_images": 900,
+        "negative_images": 399,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12997,
+        "positive_images": 9007,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1258,
+        "positive_images": 813,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 8,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.2031523642732049,
+        "sensitivity_at_0.25_fp": 0.340630472854641,
+        "sensitivity_at_0.5_fp": 0.4500875656742557,
+        "sensitivity_at_1_fp": 0.5630472854640981,
+        "sensitivity_at_2_fp": 0.6873905429071804,
+        "sensitivity_at_4_fp": 0.8248686514886164,
+        "sensitivity_at_8_fp": 0.9343257443082311,
+        "average_sensitivity": 0.5719289467100326,
+        "total_scans": 88,
+        "total_nodules": 1142,
+        "total_predictions": 454441
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\fold_8_p10\\luna16_nodule_detection_p10\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\model_backups\\fold_8\\best_p10.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 10,
+      "subset_info": {
+        "percentage": 10,
+        "train_dir": "subset_10\\images\\train",
+        "total_images": 1266,
+        "selected_images": 1266,
+        "positive_images": 867,
+        "negative_images": 399,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12673,
+        "positive_images": 8678,
+        "negative_images": 3995
+      },
+      "val_manifest": {
+        "total_images": 1582,
+        "positive_images": 1142,
+        "negative_images": 440
+      }
+    },
+    {
+      "fold": 9,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.24235560588901472,
+        "sensitivity_at_0.25_fp": 0.34541336353340885,
+        "sensitivity_at_0.5_fp": 0.47565118912797283,
+        "sensitivity_at_1_fp": 0.6002265005662514,
+        "sensitivity_at_2_fp": 0.7270668176670442,
+        "sensitivity_at_4_fp": 0.8391845979614949,
+        "sensitivity_at_8_fp": 0.9173272933182333,
+        "average_sensitivity": 0.5924607668662029,
+        "total_scans": 88,
+        "total_nodules": 883,
+        "total_predictions": 384129
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\fold_9_p10\\luna16_nodule_detection_p10\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p10\\model_backups\\fold_9\\best_p10.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 10,
+      "subset_info": {
+        "percentage": 10,
+        "train_dir": "subset_10\\images\\train",
+        "total_images": 1292,
+        "selected_images": 1292,
+        "positive_images": 893,
+        "negative_images": 399,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12932,
+        "positive_images": 8937,
+        "negative_images": 3995
+      },
+      "val_manifest": {
+        "total_images": 1323,
+        "positive_images": 883,
+        "negative_images": 440
+      }
+    }
+  ],
+  "25": [
+    {
+      "fold": 0,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.4101731601731602,
+        "sensitivity_at_0.25_fp": 0.5573593073593074,
+        "sensitivity_at_0.5_fp": 0.6255411255411255,
+        "sensitivity_at_1_fp": 0.7077922077922078,
+        "sensitivity_at_2_fp": 0.7878787878787878,
+        "sensitivity_at_4_fp": 0.8906926406926406,
+        "sensitivity_at_8_fp": 0.9512987012987013,
+        "average_sensitivity": 0.7043908472479901,
+        "total_scans": 89,
+        "total_nodules": 924,
+        "total_predictions": 86081
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\fold_0_p25\\luna16_nodule_detection_p25\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\model_backups\\fold_0\\best_p25.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 25,
+      "subset_info": {
+        "percentage": 25,
+        "train_dir": "subset_25\\images\\train",
+        "total_images": 3221,
+        "selected_images": 3221,
+        "positive_images": 2224,
+        "negative_images": 997,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12886,
+        "positive_images": 8896,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1369,
+        "positive_images": 924,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 1,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.37617260787992496,
+        "sensitivity_at_0.25_fp": 0.46622889305816134,
+        "sensitivity_at_0.5_fp": 0.5215759849906192,
+        "sensitivity_at_1_fp": 0.6228893058161351,
+        "sensitivity_at_2_fp": 0.7345215759849906,
+        "sensitivity_at_4_fp": 0.8714821763602252,
+        "sensitivity_at_8_fp": 0.9568480300187617,
+        "average_sensitivity": 0.6499597963012597,
+        "total_scans": 88,
+        "total_nodules": 1066,
+        "total_predictions": 105818
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\fold_1_p25\\luna16_nodule_detection_p25\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\model_backups\\fold_1\\best_p25.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 25,
+      "subset_info": {
+        "percentage": 25,
+        "train_dir": "subset_25\\images\\train",
+        "total_images": 3186,
+        "selected_images": 3186,
+        "positive_images": 2188,
+        "negative_images": 998,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12749,
+        "positive_images": 8754,
+        "negative_images": 3995
+      },
+      "val_manifest": {
+        "total_images": 1506,
+        "positive_images": 1066,
+        "negative_images": 440
+      }
+    },
+    {
+      "fold": 2,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.45886654478976235,
+        "sensitivity_at_0.25_fp": 0.5319926873857403,
+        "sensitivity_at_0.5_fp": 0.593235831809872,
+        "sensitivity_at_1_fp": 0.6910420475319927,
+        "sensitivity_at_2_fp": 0.7787934186471663,
+        "sensitivity_at_4_fp": 0.870201096892139,
+        "sensitivity_at_8_fp": 0.9478976234003657,
+        "average_sensitivity": 0.6960041786367198,
+        "total_scans": 89,
+        "total_nodules": 1094,
+        "total_predictions": 103365
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\fold_2_p25\\luna16_nodule_detection_p25\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\model_backups\\fold_2\\best_p25.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 25,
+      "subset_info": {
+        "percentage": 25,
+        "train_dir": "subset_25\\images\\train",
+        "total_images": 3178,
+        "selected_images": 3178,
+        "positive_images": 2181,
+        "negative_images": 997,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12716,
+        "positive_images": 8726,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1539,
+        "positive_images": 1094,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 3,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.42645607107601186,
+        "sensitivity_at_0.25_fp": 0.5745310957551826,
+        "sensitivity_at_0.5_fp": 0.629812438302073,
+        "sensitivity_at_1_fp": 0.7186574531095755,
+        "sensitivity_at_2_fp": 0.8035538005923001,
+        "sensitivity_at_4_fp": 0.8963474827245804,
+        "sensitivity_at_8_fp": 0.9654491609081934,
+        "average_sensitivity": 0.716401071781131,
+        "total_scans": 89,
+        "total_nodules": 1013,
+        "total_predictions": 92664
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\fold_3_p25\\luna16_nodule_detection_p25\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\model_backups\\fold_3\\best_p25.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 25,
+      "subset_info": {
+        "percentage": 25,
+        "train_dir": "subset_25\\images\\train",
+        "total_images": 3198,
+        "selected_images": 3198,
+        "positive_images": 2201,
+        "negative_images": 997,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12797,
+        "positive_images": 8807,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1458,
+        "positive_images": 1013,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 4,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.3452830188679245,
+        "sensitivity_at_0.25_fp": 0.4481132075471698,
+        "sensitivity_at_0.5_fp": 0.5584905660377358,
+        "sensitivity_at_1_fp": 0.6849056603773584,
+        "sensitivity_at_2_fp": 0.8066037735849056,
+        "sensitivity_at_4_fp": 0.8905660377358491,
+        "sensitivity_at_8_fp": 0.9547169811320755,
+        "average_sensitivity": 0.6698113207547169,
+        "total_scans": 89,
+        "total_nodules": 1060,
+        "total_predictions": 99592
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\fold_4_p25\\luna16_nodule_detection_p25\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\model_backups\\fold_4\\best_p25.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 25,
+      "subset_info": {
+        "percentage": 25,
+        "train_dir": "subset_25\\images\\train",
+        "total_images": 3187,
+        "selected_images": 3187,
+        "positive_images": 2190,
+        "negative_images": 997,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12750,
+        "positive_images": 8760,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1505,
+        "positive_images": 1060,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 5,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.35595238095238096,
+        "sensitivity_at_0.25_fp": 0.43214285714285716,
+        "sensitivity_at_0.5_fp": 0.5095238095238095,
+        "sensitivity_at_1_fp": 0.6190476190476191,
+        "sensitivity_at_2_fp": 0.7535714285714286,
+        "sensitivity_at_4_fp": 0.8714285714285714,
+        "sensitivity_at_8_fp": 0.9523809523809523,
+        "average_sensitivity": 0.6420068027210883,
+        "total_scans": 89,
+        "total_nodules": 840,
+        "total_predictions": 88385
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\fold_5_p25\\luna16_nodule_detection_p25\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\model_backups\\fold_5\\best_p25.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 25,
+      "subset_info": {
+        "percentage": 25,
+        "train_dir": "subset_25\\images\\train",
+        "total_images": 3242,
+        "selected_images": 3242,
+        "positive_images": 2245,
+        "negative_images": 997,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12970,
+        "positive_images": 8980,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1285,
+        "positive_images": 840,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 6,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.3401015228426396,
+        "sensitivity_at_0.25_fp": 0.40812182741116754,
+        "sensitivity_at_0.5_fp": 0.516751269035533,
+        "sensitivity_at_1_fp": 0.6314720812182741,
+        "sensitivity_at_2_fp": 0.7390862944162436,
+        "sensitivity_at_4_fp": 0.8538071065989847,
+        "sensitivity_at_8_fp": 0.9380710659898477,
+        "average_sensitivity": 0.6324873096446701,
+        "total_scans": 89,
+        "total_nodules": 985,
+        "total_predictions": 104256
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\fold_6_p25\\luna16_nodule_detection_p25\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\model_backups\\fold_6\\best_p25.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 25,
+      "subset_info": {
+        "percentage": 25,
+        "train_dir": "subset_25\\images\\train",
+        "total_images": 3205,
+        "selected_images": 3205,
+        "positive_images": 2208,
+        "negative_images": 997,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12825,
+        "positive_images": 8835,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1430,
+        "positive_images": 985,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 7,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.22755227552275523,
+        "sensitivity_at_0.25_fp": 0.3837638376383764,
+        "sensitivity_at_0.5_fp": 0.4698646986469865,
+        "sensitivity_at_1_fp": 0.5977859778597786,
+        "sensitivity_at_2_fp": 0.6974169741697417,
+        "sensitivity_at_4_fp": 0.8179581795817958,
+        "sensitivity_at_8_fp": 0.9126691266912669,
+        "average_sensitivity": 0.5867158671586716,
+        "total_scans": 89,
+        "total_nodules": 813,
+        "total_predictions": 62113
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\fold_7_p25\\luna16_nodule_detection_p25\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\model_backups\\fold_7\\best_p25.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 25,
+      "subset_info": {
+        "percentage": 25,
+        "train_dir": "subset_25\\images\\train",
+        "total_images": 3248,
+        "selected_images": 3248,
+        "positive_images": 2251,
+        "negative_images": 997,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12997,
+        "positive_images": 9007,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1258,
+        "positive_images": 813,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 8,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.3161120840630473,
+        "sensitivity_at_0.25_fp": 0.46409807355516636,
+        "sensitivity_at_0.5_fp": 0.5455341506129597,
+        "sensitivity_at_1_fp": 0.6558669001751314,
+        "sensitivity_at_2_fp": 0.7548161120840631,
+        "sensitivity_at_4_fp": 0.8791593695271454,
+        "sensitivity_at_8_fp": 0.9492119089316988,
+        "average_sensitivity": 0.652114085564173,
+        "total_scans": 88,
+        "total_nodules": 1142,
+        "total_predictions": 100521
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\fold_8_p25\\luna16_nodule_detection_p25\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\model_backups\\fold_8\\best_p25.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 25,
+      "subset_info": {
+        "percentage": 25,
+        "train_dir": "subset_25\\images\\train",
+        "total_images": 3167,
+        "selected_images": 3167,
+        "positive_images": 2169,
+        "negative_images": 998,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12673,
+        "positive_images": 8678,
+        "negative_images": 3995
+      },
+      "val_manifest": {
+        "total_images": 1582,
+        "positive_images": 1142,
+        "negative_images": 440
+      }
+    },
+    {
+      "fold": 9,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.36806342015855037,
+        "sensitivity_at_0.25_fp": 0.4654586636466591,
+        "sensitivity_at_0.5_fp": 0.5526613816534541,
+        "sensitivity_at_1_fp": 0.6591166477916195,
+        "sensitivity_at_2_fp": 0.7633069082672707,
+        "sensitivity_at_4_fp": 0.8742921857304643,
+        "sensitivity_at_8_fp": 0.956964892412231,
+        "average_sensitivity": 0.6628377285228927,
+        "total_scans": 88,
+        "total_nodules": 883,
+        "total_predictions": 87607
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\fold_9_p25\\luna16_nodule_detection_p25\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p25\\model_backups\\fold_9\\best_p25.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 25,
+      "subset_info": {
+        "percentage": 25,
+        "train_dir": "subset_25\\images\\train",
+        "total_images": 3232,
+        "selected_images": 3232,
+        "positive_images": 2234,
+        "negative_images": 998,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12932,
+        "positive_images": 8937,
+        "negative_images": 3995
+      },
+      "val_manifest": {
+        "total_images": 1323,
+        "positive_images": 883,
+        "negative_images": 440
+      }
+    }
+  ],
+  "50": [
+    {
+      "fold": 0,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.5443722943722944,
+        "sensitivity_at_0.25_fp": 0.6168831168831169,
+        "sensitivity_at_0.5_fp": 0.6948051948051948,
+        "sensitivity_at_1_fp": 0.762987012987013,
+        "sensitivity_at_2_fp": 0.8430735930735931,
+        "sensitivity_at_4_fp": 0.9112554112554112,
+        "sensitivity_at_8_fp": 0.961038961038961,
+        "average_sensitivity": 0.7620593692022263,
+        "total_scans": 89,
+        "total_nodules": 924,
+        "total_predictions": 48195
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\fold_0_p50\\luna16_nodule_detection_p50\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\model_backups\\fold_0\\best_p50.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 50,
+      "subset_info": {
+        "percentage": 50,
+        "train_dir": "subset_50\\images\\train",
+        "total_images": 6443,
+        "selected_images": 6443,
+        "positive_images": 4448,
+        "negative_images": 1995,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12886,
+        "positive_images": 8896,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1369,
+        "positive_images": 924,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 1,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.4530956848030019,
+        "sensitivity_at_0.25_fp": 0.525328330206379,
+        "sensitivity_at_0.5_fp": 0.6022514071294559,
+        "sensitivity_at_1_fp": 0.6819887429643527,
+        "sensitivity_at_2_fp": 0.7926829268292683,
+        "sensitivity_at_4_fp": 0.8827392120075047,
+        "sensitivity_at_8_fp": 0.9606003752345216,
+        "average_sensitivity": 0.6998123827392122,
+        "total_scans": 88,
+        "total_nodules": 1066,
+        "total_predictions": 53670
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\fold_1_p50\\luna16_nodule_detection_p50\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\model_backups\\fold_1\\best_p50.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 50,
+      "subset_info": {
+        "percentage": 50,
+        "train_dir": "subset_50\\images\\train",
+        "total_images": 6374,
+        "selected_images": 6374,
+        "positive_images": 4377,
+        "negative_images": 1997,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12749,
+        "positive_images": 8754,
+        "negative_images": 3995
+      },
+      "val_manifest": {
+        "total_images": 1506,
+        "positive_images": 1066,
+        "negative_images": 440
+      }
+    },
+    {
+      "fold": 2,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.553016453382084,
+        "sensitivity_at_0.25_fp": 0.6261425959780622,
+        "sensitivity_at_0.5_fp": 0.6946983546617916,
+        "sensitivity_at_1_fp": 0.7632541133455211,
+        "sensitivity_at_2_fp": 0.8409506398537477,
+        "sensitivity_at_4_fp": 0.906764168190128,
+        "sensitivity_at_8_fp": 0.9625228519195612,
+        "average_sensitivity": 0.7639070253329852,
+        "total_scans": 89,
+        "total_nodules": 1094,
+        "total_predictions": 66554
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\fold_2_p50\\luna16_nodule_detection_p50\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\model_backups\\fold_2\\best_p50.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 50,
+      "subset_info": {
+        "percentage": 50,
+        "train_dir": "subset_50\\images\\train",
+        "total_images": 6358,
+        "selected_images": 6358,
+        "positive_images": 4363,
+        "negative_images": 1995,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12716,
+        "positive_images": 8726,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1539,
+        "positive_images": 1094,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 3,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.46495557749259625,
+        "sensitivity_at_0.25_fp": 0.5202369200394866,
+        "sensitivity_at_0.5_fp": 0.6288252714708786,
+        "sensitivity_at_1_fp": 0.7265547877591313,
+        "sensitivity_at_2_fp": 0.8153998025666338,
+        "sensitivity_at_4_fp": 0.9032576505429417,
+        "sensitivity_at_8_fp": 0.9713721618953604,
+        "average_sensitivity": 0.7186574531095756,
+        "total_scans": 89,
+        "total_nodules": 1013,
+        "total_predictions": 45767
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\fold_3_p50\\luna16_nodule_detection_p50\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\model_backups\\fold_3\\best_p50.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 50,
+      "subset_info": {
+        "percentage": 50,
+        "train_dir": "subset_50\\images\\train",
+        "total_images": 6398,
+        "selected_images": 6398,
+        "positive_images": 4403,
+        "negative_images": 1995,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12797,
+        "positive_images": 8807,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1458,
+        "positive_images": 1013,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 4,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.4330188679245283,
+        "sensitivity_at_0.25_fp": 0.5528301886792453,
+        "sensitivity_at_0.5_fp": 0.6641509433962264,
+        "sensitivity_at_1_fp": 0.7641509433962265,
+        "sensitivity_at_2_fp": 0.8311320754716981,
+        "sensitivity_at_4_fp": 0.9216981132075471,
+        "sensitivity_at_8_fp": 0.9679245283018868,
+        "average_sensitivity": 0.7335579514824797,
+        "total_scans": 89,
+        "total_nodules": 1060,
+        "total_predictions": 61276
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\fold_4_p50\\luna16_nodule_detection_p50\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\model_backups\\fold_4\\best_p50.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 50,
+      "subset_info": {
+        "percentage": 50,
+        "train_dir": "subset_50\\images\\train",
+        "total_images": 6375,
+        "selected_images": 6375,
+        "positive_images": 4380,
+        "negative_images": 1995,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12750,
+        "positive_images": 8760,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1505,
+        "positive_images": 1060,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 5,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.3821428571428571,
+        "sensitivity_at_0.25_fp": 0.4511904761904762,
+        "sensitivity_at_0.5_fp": 0.5714285714285714,
+        "sensitivity_at_1_fp": 0.6583333333333333,
+        "sensitivity_at_2_fp": 0.7952380952380952,
+        "sensitivity_at_4_fp": 0.9035714285714286,
+        "sensitivity_at_8_fp": 0.9630952380952381,
+        "average_sensitivity": 0.6749999999999999,
+        "total_scans": 89,
+        "total_nodules": 840,
+        "total_predictions": 57924
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\fold_5_p50\\luna16_nodule_detection_p50\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\model_backups\\fold_5\\best_p50.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 50,
+      "subset_info": {
+        "percentage": 50,
+        "train_dir": "subset_50\\images\\train",
+        "total_images": 6485,
+        "selected_images": 6485,
+        "positive_images": 4490,
+        "negative_images": 1995,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12970,
+        "positive_images": 8980,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1285,
+        "positive_images": 840,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 6,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.44568527918781725,
+        "sensitivity_at_0.25_fp": 0.5015228426395939,
+        "sensitivity_at_0.5_fp": 0.6071065989847716,
+        "sensitivity_at_1_fp": 0.6944162436548224,
+        "sensitivity_at_2_fp": 0.7766497461928934,
+        "sensitivity_at_4_fp": 0.8751269035532995,
+        "sensitivity_at_8_fp": 0.9472081218274112,
+        "average_sensitivity": 0.6925308194343727,
+        "total_scans": 89,
+        "total_nodules": 985,
+        "total_predictions": 47445
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\fold_6_p50\\luna16_nodule_detection_p50\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\model_backups\\fold_6\\best_p50.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 50,
+      "subset_info": {
+        "percentage": 50,
+        "train_dir": "subset_50\\images\\train",
+        "total_images": 6412,
+        "selected_images": 6412,
+        "positive_images": 4417,
+        "negative_images": 1995,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12825,
+        "positive_images": 8835,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1430,
+        "positive_images": 985,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 7,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.3849938499384994,
+        "sensitivity_at_0.25_fp": 0.48093480934809346,
+        "sensitivity_at_0.5_fp": 0.5719557195571956,
+        "sensitivity_at_1_fp": 0.6654366543665436,
+        "sensitivity_at_2_fp": 0.7527675276752768,
+        "sensitivity_at_4_fp": 0.8659286592865929,
+        "sensitivity_at_8_fp": 0.9520295202952029,
+        "average_sensitivity": 0.6677209629239149,
+        "total_scans": 89,
+        "total_nodules": 813,
+        "total_predictions": 43428
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\fold_7_p50\\luna16_nodule_detection_p50\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\model_backups\\fold_7\\best_p50.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 50,
+      "subset_info": {
+        "percentage": 50,
+        "train_dir": "subset_50\\images\\train",
+        "total_images": 6498,
+        "selected_images": 6498,
+        "positive_images": 4503,
+        "negative_images": 1995,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12997,
+        "positive_images": 9007,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1258,
+        "positive_images": 813,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 8,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.43782837127845886,
+        "sensitivity_at_0.25_fp": 0.4921190893169877,
+        "sensitivity_at_0.5_fp": 0.6015761821366025,
+        "sensitivity_at_1_fp": 0.7241681260945709,
+        "sensitivity_at_2_fp": 0.8283712784588442,
+        "sensitivity_at_4_fp": 0.8922942206654991,
+        "sensitivity_at_8_fp": 0.968476357267951,
+        "average_sensitivity": 0.706404803602702,
+        "total_scans": 88,
+        "total_nodules": 1142,
+        "total_predictions": 74697
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\fold_8_p50\\luna16_nodule_detection_p50\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\model_backups\\fold_8\\best_p50.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 50,
+      "subset_info": {
+        "percentage": 50,
+        "train_dir": "subset_50\\images\\train",
+        "total_images": 6336,
+        "selected_images": 6336,
+        "positive_images": 4339,
+        "negative_images": 1997,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12673,
+        "positive_images": 8678,
+        "negative_images": 3995
+      },
+      "val_manifest": {
+        "total_images": 1582,
+        "positive_images": 1142,
+        "negative_images": 440
+      }
+    },
+    {
+      "fold": 9,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.4110985277463194,
+        "sensitivity_at_0.25_fp": 0.48357870894677235,
+        "sensitivity_at_0.5_fp": 0.6024915062287656,
+        "sensitivity_at_1_fp": 0.7168742921857305,
+        "sensitivity_at_2_fp": 0.8289920724801813,
+        "sensitivity_at_4_fp": 0.9105322763306908,
+        "sensitivity_at_8_fp": 0.9716874292185731,
+        "average_sensitivity": 0.7036078304481476,
+        "total_scans": 88,
+        "total_nodules": 883,
+        "total_predictions": 48500
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\fold_9_p50\\luna16_nodule_detection_p50\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p50\\model_backups\\fold_9\\best_p50.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 50,
+      "subset_info": {
+        "percentage": 50,
+        "train_dir": "subset_50\\images\\train",
+        "total_images": 6465,
+        "selected_images": 6465,
+        "positive_images": 4468,
+        "negative_images": 1997,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12932,
+        "positive_images": 8937,
+        "negative_images": 3995
+      },
+      "val_manifest": {
+        "total_images": 1323,
+        "positive_images": 883,
+        "negative_images": 440
+      }
+    }
+  ],
+  "75": [
+    {
+      "fold": 0,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.551948051948052,
+        "sensitivity_at_0.25_fp": 0.6536796536796536,
+        "sensitivity_at_0.5_fp": 0.711038961038961,
+        "sensitivity_at_1_fp": 0.775974025974026,
+        "sensitivity_at_2_fp": 0.8658008658008658,
+        "sensitivity_at_4_fp": 0.9296536796536796,
+        "sensitivity_at_8_fp": 0.9718614718614719,
+        "average_sensitivity": 0.7799938157081013,
+        "total_scans": 89,
+        "total_nodules": 924,
+        "total_predictions": 37690
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\fold_0_p75\\luna16_nodule_detection_p75\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\model_backups\\fold_0\\best_p75.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 75,
+      "subset_info": {
+        "percentage": 75,
+        "train_dir": "subset_75\\images\\train",
+        "total_images": 9664,
+        "selected_images": 9664,
+        "positive_images": 6672,
+        "negative_images": 2992,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12886,
+        "positive_images": 8896,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1369,
+        "positive_images": 924,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 1,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.4906191369606004,
+        "sensitivity_at_0.25_fp": 0.5947467166979362,
+        "sensitivity_at_0.5_fp": 0.6744840525328331,
+        "sensitivity_at_1_fp": 0.7617260787992496,
+        "sensitivity_at_2_fp": 0.8255159474671669,
+        "sensitivity_at_4_fp": 0.9071294559099438,
+        "sensitivity_at_8_fp": 0.9671669793621013,
+        "average_sensitivity": 0.7459126239614046,
+        "total_scans": 88,
+        "total_nodules": 1066,
+        "total_predictions": 37920
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\fold_1_p75\\luna16_nodule_detection_p75\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\model_backups\\fold_1\\best_p75.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 75,
+      "subset_info": {
+        "percentage": 75,
+        "train_dir": "subset_75\\images\\train",
+        "total_images": 9561,
+        "selected_images": 9561,
+        "positive_images": 6565,
+        "negative_images": 2996,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12749,
+        "positive_images": 8754,
+        "negative_images": 3995
+      },
+      "val_manifest": {
+        "total_images": 1506,
+        "positive_images": 1066,
+        "negative_images": 440
+      }
+    },
+    {
+      "fold": 2,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.5365630712979891,
+        "sensitivity_at_0.25_fp": 0.5822669104204753,
+        "sensitivity_at_0.5_fp": 0.649908592321755,
+        "sensitivity_at_1_fp": 0.7495429616087751,
+        "sensitivity_at_2_fp": 0.8418647166361974,
+        "sensitivity_at_4_fp": 0.9095063985374772,
+        "sensitivity_at_8_fp": 0.9616087751371115,
+        "average_sensitivity": 0.7473230608513973,
+        "total_scans": 89,
+        "total_nodules": 1094,
+        "total_predictions": 44878
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\fold_2_p75\\luna16_nodule_detection_p75\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\model_backups\\fold_2\\best_p75.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 75,
+      "subset_info": {
+        "percentage": 75,
+        "train_dir": "subset_75\\images\\train",
+        "total_images": 9536,
+        "selected_images": 9536,
+        "positive_images": 6544,
+        "negative_images": 2992,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12716,
+        "positive_images": 8726,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1539,
+        "positive_images": 1094,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 3,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.5054294175715696,
+        "sensitivity_at_0.25_fp": 0.558736426456071,
+        "sensitivity_at_0.5_fp": 0.6633761105626851,
+        "sensitivity_at_1_fp": 0.771964461994077,
+        "sensitivity_at_2_fp": 0.8479763079960513,
+        "sensitivity_at_4_fp": 0.9299111549851925,
+        "sensitivity_at_8_fp": 0.9792694965449161,
+        "average_sensitivity": 0.7509519108729376,
+        "total_scans": 89,
+        "total_nodules": 1013,
+        "total_predictions": 45353
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\fold_3_p75\\luna16_nodule_detection_p75\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\model_backups\\fold_3\\best_p75.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 75,
+      "subset_info": {
+        "percentage": 75,
+        "train_dir": "subset_75\\images\\train",
+        "total_images": 9597,
+        "selected_images": 9597,
+        "positive_images": 6605,
+        "negative_images": 2992,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12797,
+        "positive_images": 8807,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1458,
+        "positive_images": 1013,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 4,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.46037735849056605,
+        "sensitivity_at_0.25_fp": 0.5509433962264151,
+        "sensitivity_at_0.5_fp": 0.6650943396226415,
+        "sensitivity_at_1_fp": 0.7509433962264151,
+        "sensitivity_at_2_fp": 0.8669811320754717,
+        "sensitivity_at_4_fp": 0.9207547169811321,
+        "sensitivity_at_8_fp": 0.969811320754717,
+        "average_sensitivity": 0.7407008086253369,
+        "total_scans": 89,
+        "total_nodules": 1060,
+        "total_predictions": 42796
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\fold_4_p75\\luna16_nodule_detection_p75\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\model_backups\\fold_4\\best_p75.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 75,
+      "subset_info": {
+        "percentage": 75,
+        "train_dir": "subset_75\\images\\train",
+        "total_images": 9562,
+        "selected_images": 9562,
+        "positive_images": 6570,
+        "negative_images": 2992,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12750,
+        "positive_images": 8760,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1505,
+        "positive_images": 1060,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 5,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.46785714285714286,
+        "sensitivity_at_0.25_fp": 0.5321428571428571,
+        "sensitivity_at_0.5_fp": 0.6095238095238096,
+        "sensitivity_at_1_fp": 0.7416666666666667,
+        "sensitivity_at_2_fp": 0.8202380952380952,
+        "sensitivity_at_4_fp": 0.9202380952380952,
+        "sensitivity_at_8_fp": 0.9726190476190476,
+        "average_sensitivity": 0.7234693877551021,
+        "total_scans": 89,
+        "total_nodules": 840,
+        "total_predictions": 37467
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\fold_5_p75\\luna16_nodule_detection_p75\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\model_backups\\fold_5\\best_p75.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 75,
+      "subset_info": {
+        "percentage": 75,
+        "train_dir": "subset_75\\images\\train",
+        "total_images": 9727,
+        "selected_images": 9727,
+        "positive_images": 6735,
+        "negative_images": 2992,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12970,
+        "positive_images": 8980,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1285,
+        "positive_images": 840,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 6,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.433502538071066,
+        "sensitivity_at_0.25_fp": 0.5187817258883248,
+        "sensitivity_at_0.5_fp": 0.6192893401015228,
+        "sensitivity_at_1_fp": 0.7076142131979696,
+        "sensitivity_at_2_fp": 0.7928934010152284,
+        "sensitivity_at_4_fp": 0.884263959390863,
+        "sensitivity_at_8_fp": 0.9451776649746193,
+        "average_sensitivity": 0.7002175489485134,
+        "total_scans": 89,
+        "total_nodules": 985,
+        "total_predictions": 41984
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\fold_6_p75\\luna16_nodule_detection_p75\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\model_backups\\fold_6\\best_p75.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 75,
+      "subset_info": {
+        "percentage": 75,
+        "train_dir": "subset_75\\images\\train",
+        "total_images": 9618,
+        "selected_images": 9618,
+        "positive_images": 6626,
+        "negative_images": 2992,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12825,
+        "positive_images": 8835,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1430,
+        "positive_images": 985,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 7,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.4095940959409594,
+        "sensitivity_at_0.25_fp": 0.5141451414514145,
+        "sensitivity_at_0.5_fp": 0.5867158671586716,
+        "sensitivity_at_1_fp": 0.6605166051660517,
+        "sensitivity_at_2_fp": 0.7601476014760148,
+        "sensitivity_at_4_fp": 0.8474784747847478,
+        "sensitivity_at_8_fp": 0.9261992619926199,
+        "average_sensitivity": 0.6721138639957828,
+        "total_scans": 89,
+        "total_nodules": 813,
+        "total_predictions": 30439
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\fold_7_p75\\luna16_nodule_detection_p75\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\model_backups\\fold_7\\best_p75.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 75,
+      "subset_info": {
+        "percentage": 75,
+        "train_dir": "subset_75\\images\\train",
+        "total_images": 9747,
+        "selected_images": 9747,
+        "positive_images": 6755,
+        "negative_images": 2992,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12997,
+        "positive_images": 9007,
+        "negative_images": 3990
+      },
+      "val_manifest": {
+        "total_images": 1258,
+        "positive_images": 813,
+        "negative_images": 445
+      }
+    },
+    {
+      "fold": 8,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.5043782837127846,
+        "sensitivity_at_0.25_fp": 0.5761821366024519,
+        "sensitivity_at_0.5_fp": 0.6523642732049036,
+        "sensitivity_at_1_fp": 0.7486865148861647,
+        "sensitivity_at_2_fp": 0.8485113835376532,
+        "sensitivity_at_4_fp": 0.9098073555166375,
+        "sensitivity_at_8_fp": 0.9772329246935202,
+        "average_sensitivity": 0.7453089817363022,
+        "total_scans": 88,
+        "total_nodules": 1142,
+        "total_predictions": 41809
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\fold_8_p75\\luna16_nodule_detection_p75\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\model_backups\\fold_8\\best_p75.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 75,
+      "subset_info": {
+        "percentage": 75,
+        "train_dir": "subset_75\\images\\train",
+        "total_images": 9504,
+        "selected_images": 9504,
+        "positive_images": 6508,
+        "negative_images": 2996,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12673,
+        "positive_images": 8678,
+        "negative_images": 3995
+      },
+      "val_manifest": {
+        "total_images": 1582,
+        "positive_images": 1142,
+        "negative_images": 440
+      }
+    },
+    {
+      "fold": 9,
+      "froc_results": {
+        "sensitivity_at_0.125_fp": 0.39977349943374857,
+        "sensitivity_at_0.25_fp": 0.5062287655719139,
+        "sensitivity_at_0.5_fp": 0.6443941109852774,
+        "sensitivity_at_1_fp": 0.7576443941109853,
+        "sensitivity_at_2_fp": 0.8414496036240091,
+        "sensitivity_at_4_fp": 0.9218573046432617,
+        "sensitivity_at_8_fp": 0.9592298980747452,
+        "average_sensitivity": 0.7186539394919915,
+        "total_scans": 88,
+        "total_nodules": 883,
+        "total_predictions": 36622
+      },
+      "weights_path": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\fold_9_p75\\luna16_nodule_detection_p75\\weights\\best.pt",
+      "backup_weights": "C:\\Users\\peter\\Masters\\Project\\LUNA16\\yolov5_output_custom_backbone_sequential_0.002lr_data_percentage_comparison_p75\\model_backups\\fold_9\\best_p75.pt",
+      "experiment_name": "custom_backbone_sequential_0.002lr_data_percentage_comparison",
+      "pretrained_weights": "C:\\Users\\peter\\Masters\\Project\\converted_models\\yolov5_custom_backbone_sequential.pt",
+      "data_percentage": 75,
+      "subset_info": {
+        "percentage": 75,
+        "train_dir": "subset_75\\images\\train",
+        "total_images": 9698,
+        "selected_images": 9698,
+        "positive_images": 6702,
+        "negative_images": 2996,
+        "seed": 42
+      },
+      "train_manifest": {
+        "total_images": 12932,
+        "positive_images": 8937,
+        "negative_images": 3995
+      },
+      "val_manifest": {
+        "total_images": 1323,
+        "positive_images": 883,
+        "negative_images": 440
+      }
+    }
+  ]
+}
